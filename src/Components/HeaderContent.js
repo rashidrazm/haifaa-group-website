@@ -12,9 +12,9 @@ function HeaderContent() {
     <HeaderContentStyled>
        <div className='left-content'>
            <div className='left-text-container'>
-           <h1>Smart banking <br/>for freelancers</h1>
+           <h1>Haifaa Group <br/>Digital Solutions</h1>
            <p className='white'>
-               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+           We craft engaging brands and digital experiences that define culture and elevate brands to achieve unprecedented growth. Since day one, our focus has been on providing strategies and services that position our clients to succeed in today’s dynamic, constantly evolving world.</p>
            <SecondaryButton name={'Register now'}/>
            </div>
        </div>
@@ -38,6 +38,9 @@ const HeaderContentStyled = styled.div`
     display:flex;
     align-items:center;
     padding-right:3rem;
+    .white{
+        color:white;
+    }
     h1{
          font-size:4rem;
          font-weight:600;
