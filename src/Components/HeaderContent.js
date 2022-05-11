@@ -78,7 +78,7 @@ const HeaderContentStyled = styled.div`
       position:absolute;
       bottom:15%;
       left:0; 
-      padding-right:13rem;
+      padding-right:21rem;
     }
     
   }

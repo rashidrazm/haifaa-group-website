@@ -40,6 +40,12 @@ const GlobalStyle = createGlobalStyle `
        color:var(--purple-primary);
        
    }
+
+  .chart-heading{
+    font-size: 3rem;
+    color:var(--purple-primary);
+    
+}
 `;
 
 export default GlobalStyle;
