@@ -34,8 +34,10 @@ const CardSectionStyled = styled.section`
       }
 
       .card-right{
+            background: transparent;
            display: flex;
            justify-content: center;
+           
       }
       .card-left{
          padding: 1rem 0;

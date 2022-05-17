@@ -23,7 +23,7 @@ const GlobalStyle = createGlobalStyle `
    }
 
    body{
-       background-color: var(---neutral-light);
+       background-color: var(--neutral-light);
        color:white;
        font-size:1.2rem;
    }
@@ -39,6 +39,18 @@ const GlobalStyle = createGlobalStyle `
        font-size: 3rem;
        color:var(--purple-primary);
        
+   }
+   .small-heading{
+      font-size: 2.5rem;
+      color: var(--purple-primary);
+      text-align: center;
+   }
+   span{
+     color:var(--accent-pink);
+   }
+   //Utilities
+   .c-para{
+     text-align:center;
    }
 
   .chart-heading{
