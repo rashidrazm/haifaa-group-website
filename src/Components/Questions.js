@@ -30,6 +30,7 @@ const QuestionStyled = styled.div`
  padding: 1.4rem 1rem;
  border-radius: 24px;
  transition: all .4s ease-in-out;
+ box-shadow: 0px 25px 50px rgba(22, 55, 79, 0.05);
  
 
  
