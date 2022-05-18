@@ -60,11 +60,13 @@ const HeaderContentStyled = styled.div`
       padding:1rem;
       
     }
-    .ring1{
+    .icon1{
       position:absolute;
       bottom:10%;
       right:0;
       left:auto;
+      animation: move 5s infinite;
+      transition: all .4s ease-in-out;
       
       
     }
@@ -73,15 +75,37 @@ const HeaderContentStyled = styled.div`
       top:0;
       right:0;
       left:auto; 
+      animation: move 5s infinite;
+      transition: all .4s ease-in-out;
     }
     .message2{
       position:absolute;
       bottom:15%;
       left:0; 
-      padding-right:21rem;
+      padding-right:11rem;
+      animation: move 8s infinite;
+      animation-delay: .5s;
+      transition: all .4s ease-in-out;
+
     }
     
   }
+
+  //Header Animations
+   .message1{
+       @keyframes move{
+         0%{
+            transform: translateY(0) rotate(0deg) scale(1);   
+         }
+         50%{
+          transform: translateY(-10px) rotate(20deg) scale(1.1);
+         }
+         100%{
+          transform: translateY(0) rotate(0deg) scale(1);
+
+         }
+       }
+   }
 
 `;
 export default HeaderContent

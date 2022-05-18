@@ -34,7 +34,7 @@ const CardSectionStyled = styled.section`
       }
 
       .card-right{
-            background: transparent;
+            
            display: flex;
            justify-content: center;
            
