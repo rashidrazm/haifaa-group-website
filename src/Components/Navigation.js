@@ -5,23 +5,27 @@ import logo from '../img/logo.png';
 
 function Navigation() {
   return (
+      
     < NavigationStyled>
+      
        <div className='logo'> 
            <img src={logo} alt=''></img>
        </div>
-           <ul>
+        
+           <ul >
                <li>
                    <a href=''>Home</a>
                </li>
                <li>
-                   <a href=''>Features</a>
+                   <a href=''>Services</a>
                </li>
                <li>
-                   <a href=''>Pricing</a>
+                   <a href=''>Contact</a>
                </li>
            </ul>
+        
            <PrimaryButton name={'Sign Up'}/>
-       
+      
     </ NavigationStyled>
   )
 }
@@ -32,9 +36,13 @@ const NavigationStyled = styled.nav`
       align-items:center;
       
 
-      ul{
+      ul {
           display:flex;
-          justify-content:space-between;
+          @media screen and (max-width: 633px){
+              display: grid;
+          }
+          justify-content:space-around;
+          align-items: center;
           width: 40%;
       }
 `;

@@ -7,14 +7,18 @@ import message1 from '../img/message_pink.svg';
 import message2 from '../img/message_blue.svg';
 
 
+
 function HeaderContent() {
   return (
     <HeaderContentStyled>
        <div className='left-content'>
            <div className='left-text-container'>
            <h1>Haifaa Group <br/>Digital Solutions</h1>
+           
            <p className='white'>
-           We craft engaging brands and digital experiences that define culture and elevate brands to achieve unprecedented growth. Since day one, our focus has been on providing strategies and services that position our clients to succeed in today’s dynamic, constantly evolving world.</p>
+              We craft engaging brands and digital experiences that define culture and elevate brands to achieve unprecedented growth. Since day one, our focus has been on providing strategies and services that position our clients to succeed in today’s dynamic, constantly evolving world.
+           </p>
+           
            <SecondaryButton name={'Register now'}/>
            </div>
        </div>
@@ -33,7 +37,11 @@ function HeaderContent() {
 const HeaderContentStyled = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-top:2rem;
+  padding-top: 2rem;
+  @media screen and (max-width: 700px){
+    grid-template-columns: repeat(1, 1fr);
+    
+ }
   .left-content{
     display:flex;
     align-items:center;
@@ -44,20 +52,23 @@ const HeaderContentStyled = styled.div`
     h1{
          font-size:4rem;
          font-weight:600;
+         @media screen and (max-width: 700px){
+           font-size: 3rem;
+         }
     }
     .white{
          padding:1.4rem 0;
          line-height:1.8rem;
+        
     }
   }
 
   .right-content{
     position:relative;
-    
+    display: flex;
     justify-content:center;
 
-    .phone{
-      padding:1rem;
+    
       
     }
     .icon1{
@@ -108,4 +119,4 @@ const HeaderContentStyled = styled.div`
    }
 
 `;
-export default HeaderContent
+export default HeaderContent;

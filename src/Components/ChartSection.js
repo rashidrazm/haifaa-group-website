@@ -15,7 +15,7 @@ function ChartSection() {
              </div>
              <div className='chart-right'> 
                  <h2 className='chart-heading' href='' >Hello World</h2>
-                 <p>
+                 <p className='para'>
                    hello world this is the sample description for checking text design structure.
                  </p>
                  <AnimatedButton name={ 'Learn more'} />
@@ -30,14 +30,23 @@ const ChartStyled = styled.section`
     .chart-con{
       display: grid;
       grid-template-columns: repeat(2,1fr);
-    }
+      @media screen and (max-width: 845px){
+        grid-template-columns: repeat(1, 1fr);
+     }
+    
     .chart-left{
+      
       justify-content:center;
     }
+  }
     .chart-right{
-      justify-content:center;
-      padding-left:10rem;
-      padding-top:4rem;
+      padding-left:2rem;
+       p{
+          padding: 1.3rem 0;
+          
+       }
     }
+
+    
 `;
 export default ChartSection
