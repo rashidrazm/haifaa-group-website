@@ -5,19 +5,12 @@ import { InnerLayout } from '../styles/Layouts';
 function Message() {
   return (
         <MessageStyle>
-            <InnerLayout>
+            
                 <div className='message-con'>
-                      <div className='left-items'>
-                            <h2 className='secondary-heading'>
-                                    We support you in 5 ways
-                            </h2>
-                      </div>
-                      <div className='right-items'>
-
-                      </div>
+                <h1 className='primary-heading'>Our <span> Services </span></h1>
 
                  </div>
-            </InnerLayout>
+            
         </MessageStyle> 
   )
 }

@@ -16,7 +16,7 @@ function FAQSection() {
                 students and teachers this is a sample or dummy sentence
             </p>
             <div className='lines'>
-                 <img src={lines} />
+                 
             </div>
 
             <div className='questions-con'>

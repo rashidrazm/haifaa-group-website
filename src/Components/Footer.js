@@ -6,7 +6,7 @@ import logo from '../img/logo.png';
 function Footer() {
   return (
     <FooterStyled>
-         <InnerLayout>
+         
             <div className='footer-con'>
               <div className='logo-con'> 
                  <div className='logo-items'>
@@ -20,7 +20,7 @@ function Footer() {
                  <ul className='bottom-nav'>
                     <div className='links1'>
                          <li>
-                            <a href='youtube.com'>Youtube</a>
+                            <a href='youtube.com'>Yout</a>
                          </li>
                          <li>
                            <a href='#'>Team</a>
@@ -32,10 +32,10 @@ function Footer() {
 
                     <div className='links1'>
                          <li>
-                            <a href='youtube.com'>Youtube</a>
+                            <a href='youtube.com'>Yout</a>
                          </li>
                          <li>
-                           <a href='#'>Team</a>
+                           <a href='#'></a>
                          </li>
                          <li>
                            <a href='#'>Press</a>
@@ -56,14 +56,15 @@ function Footer() {
                  </ul>
            </div>
            
-         </InnerLayout>
+         
     </FooterStyled>
   )
 }
 
 const FooterStyled = styled.footer`
-     padding: 0 18rem;
+     padding: 0 13rem;
      background-color: #dce2f0;
+
      @media screen and (max-width: 1347px){
       padding: 5rem 14rem;
       }
@@ -73,11 +74,12 @@ const FooterStyled = styled.footer`
      @media screen and (max-width: 990px){
       padding: 5rem 4rem;
      }
+    
      .footer-con{
          display: grid;
          grid-template-columns: repeat(2, 1fr);
-           
-
+         
+          
      }
 
      .logo-con{

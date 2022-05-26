@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components';
 import plus from '../img/plus.svg';
 import minus from '../img/minus.svg';
+import { Fade } from 'react-reveal';
 
 function Questions({title, description}) {
     const [toggle, setToggle] = useState(false);
@@ -10,6 +11,7 @@ function Questions({title, description}) {
        setToggle(!toggle); 
     }
   return (
+     <Fade right casecade>
     <QuestionStyled>
          <div className='q-con'>
             <div className='toggle-title'>
@@ -21,6 +23,7 @@ function Questions({title, description}) {
              {toggle && <p>{description}</p> }
          </div>
     </QuestionStyled>
+    </Fade>
   )
 }
 

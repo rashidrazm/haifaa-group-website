@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
 import styled from 'styled-components';
 import CardSection from './Components/CardSection';
 import ChartSection from './Components/ChartSection';
@@ -6,6 +7,8 @@ import FAQSection from './Components/FAQSection';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Message from './Components/Message';
+import PpcSection from './Components/PpcSection';
+import SeoSection from './Components/SeoSection';
 import {OuterLayout} from './styles/Layouts';
 
 
@@ -17,13 +20,31 @@ function App() {
        <Header/>
        <OuterLayout>
            <MainStyled>
-             <CardSection/>
-             <ChartSection/>
-             <Message/>
-             <FAQSection/>
+             <Fade left>
+               <Message/>
+             </Fade>  
+             <Fade right>
+               <CardSection/>
+             </Fade>
+             <Fade left>
+               <ChartSection/>
+             </Fade>
+             <Fade right>
+               <SeoSection/>
+             </Fade>   
+             <Fade left>
+               <PpcSection/>
+             </Fade> 
+             <Fade right>
+               <FAQSection/>
+             </Fade>
+             
+             
            </MainStyled>
        </OuterLayout>
-       <Footer/>
+       <Fade bottom>
+           <Footer/>
+       </Fade>
     </div>
   );
 }

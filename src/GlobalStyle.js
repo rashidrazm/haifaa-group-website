@@ -37,8 +37,12 @@ const GlobalStyle = createGlobalStyle `
    } 
    .secondary-heading{
        font-size: 3rem;
-       color:var(--purple-primary);
-       
+       color:var(--purple-primary);     
+   }
+   .primary-heading{
+      font-size: 4rem;
+      color:var(--purple-primary);     
+      text-align: center;
    }
    .small-heading{
       font-size: 2.5rem;

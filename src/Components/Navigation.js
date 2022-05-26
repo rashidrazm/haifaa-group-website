@@ -2,10 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 import PrimaryButton from './PrimaryButton';
 import logo from '../img/logo.png';
+import { Fade } from 'react-reveal';
 
 function Navigation() {
   return (
-      
+      <Fade top>
     < NavigationStyled>
       
        <div className='logo'> 
@@ -27,6 +28,7 @@ function Navigation() {
            <PrimaryButton name={'Sign Up'}/>
       
     </ NavigationStyled>
+</Fade> 
   )
 }
 const NavigationStyled = styled.nav`
