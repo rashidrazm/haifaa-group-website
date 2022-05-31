@@ -16,9 +16,9 @@ function CardSection() {
                         Social Media Marketing
                  </h2>
                  <p>
-                 lorem ipsum sjshf shs shsjhfsk sshf shf sjfh sfjhj ksksahf slhhf sa 
-
-                   lorem ipsum sjshf shs shsjhfsk sshf shf sjfh sfjhj ksksahf slhhf sa 
+                 We can manage all of your social media platforms day-to-day, we can help build specific campaigns for your business to help you reach the 
+                 desired audience. We can create assets to bring your campaigns to life, whilst also monitoring their progress daily and reporting on their
+                  overall success. From brand awareness to sales, our social media experts will help you achieve your goals.
                  </p>
            </div>
            <div className='card-right'>
