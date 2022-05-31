@@ -18,7 +18,9 @@ function Navigation() {
                    <a href=''>Home</a>
                </li>
                <li>
-                   <a href=''>Services</a>
+                   <NavLink to='/' exact activeClassName='active'>
+                      Services
+                   </NavLink>
                </li>
                <li>
                    <a href=''>Contact</a>
