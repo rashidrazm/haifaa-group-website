@@ -10,7 +10,10 @@ function PpcSection() {
                <h2 className='secondary-heading' href='' >
                    PPC Marketing</h2>
                  <p >
-                   hello world this is the sample description for checking text design structure.
+                  One of the most popular forms of  pay-per-click or PPC is search engine advertising, which allows advertisers to pay for ad placement in a search engine’s
+                  sponsored links. This works when someone searches for a keyword related to their business offering. For example, if we bid on the keyword
+                   ‘Google Shopping Management’ our ad might show up at the top of the Google results page.
+
                  </p>
              </div>
              <div className='ppc-right'> 
