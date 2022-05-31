@@ -18,7 +18,12 @@ function ChartSection() {
                </LightSpeed>
               <Roll right>
                  <p >
-                   hello world this is the sample description for checking text design structure.
+                   We provides ultimate responsive website design services, Main benefit of responsive web design is flexible to adapt different screens of website
+                  or mobile devices.
+                 Before starting with responsive web development, we propose to know your requirements, understand them properly and then proceed further so as to
+                  fulfill the task without any hassles. Once we receive confirmation of your project, then our dedicated developers establish strategy and plans
+                   according to your business needs to cater the best suitable solutions for you.
+
                   </p>
               </Roll>
              </div>
